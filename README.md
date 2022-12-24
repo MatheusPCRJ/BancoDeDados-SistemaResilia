@@ -71,14 +71,15 @@ Faltando explicação do projeto e Extras.
   **Criado e desenvolvido por [Matheus Gomes](https://www.linkedin.com/in/matheus-gomes-780339211/).**
   
  <div align="center"> 
+  
+  <a href="https://github.com/MatheusPCRJ" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" height="40em" title="GitHub de MatheusPCRJ"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/matheus-gomes-780339211/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" height="40em" title="LinkedIn de Matheus Gomes"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  
   <a href="mailto:ytallodev@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/552/552486.png" height="40em" title="Enviar E-mail"></a>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/MatheusPCRJ" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" height="40em" title="GitHub de MatheusPCRJ"></a>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/matheus-gomes-780339211/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" height="40em" title="LinkedIn de Matheus Gomes"></a>
+   
   </div>
 </div>
-
 <br>
 
 <div align="center">
