@@ -1,4 +1,4 @@
-# 4° Projeto Individual - Banco de dados Sistema Resilia!
+<h1 align="center">4° Projeto Individual - Banco de dados Sistema Resilia!</h1>
 
 <div id="inicio" align=center>
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;
