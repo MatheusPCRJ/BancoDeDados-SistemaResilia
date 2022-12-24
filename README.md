@@ -3,19 +3,22 @@
 <div id="inicio" align=center>
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;
   <a href="#extras">Extras</a>&nbsp;&nbsp;&nbsp;
-  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
   <a href="#andamento">Andamento</a>&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
   <a href="#ferramentas">Ferramentas</a>&nbsp;&nbsp;&nbsp;
   <a href="#autor">Autor</a> 
 </div>
 
+
 <h2 id="sobre">Sobre 🔎</h2>
   <h3>Projeto onde precisei desenvolver uma lógica para um banco de dados. Utilizando meus conhecimentos de Excel e a ferramenta online Miro(para montagem do Modelo) que contempla os requisitos abaixo:</h3>
+
 
 <h4> Contexo da situação: </h4>
 A Resilia está pensando em lançar um novo sistema de
 acompanhamento e para isso precisa de ajuda para modelar um
 banco de dados que vai armazenar seus cursos, turmas e alunos.
+
 
 <h4> O que é para ser feito? </h4>
 <p>Para apoiar nesse sistema recebemos a tarefa de realizar essa modelagem
@@ -24,22 +27,38 @@ e responder algumas perguntas com nosso modelo:<br>
 ⇨ Quais são os principais campos e tipos?<br>
 ⇨ Como essas entidades estão relacionadas?<br>
 </p>
-<h2 id="extras">Requisitos Extras 🔎</h2>
 
+
+<h2 id="extras">Requisitos Extras 🔎</h2>
 - Preparar os scripts que vão criar o banco de dados proposto e
 adicionar uma pasta chamada SQL com os arquivos.<br>
 Andamento: Não incluso.
 
-<h2 id="projeto">Projeto 📈</h2>
-- 
-<br>
-
-
-
 
 <h2 id="andamento">Andamento do projeto 📈</h2>
-- Concluído
+- Incompleto.<br>
+Faltando explicação do projeto e Extras.
 <br>
+
+
+<h2 id="projeto">Projeto 📈</h2>
+- Print da Modelagem feita no site Miro.com:<br><br>
+
+<div align="center">
+  <img width="80%" src="https://user-images.githubusercontent.com/112782424/209417260-41260557-57c6-4f61-942c-d64bf6aee859.jpg" />
+</div>
+<br>
+<br>
+<br>
+
+- Print da Modelagem com Excel: <br>
+<div align="center">
+  <img width="80%" src="https://user-images.githubusercontent.com/112782424/209417316-bd355299-2e73-4ae3-bcb3-93cee5f47079.png" />
+</div>
+
+
+
+
 
 <h2 id="ferramentas">Ferramentas utilizadas nesse projeto 📚</h2>
 
