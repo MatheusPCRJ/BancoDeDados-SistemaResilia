@@ -1,5 +1,13 @@
 <h1 align="center">4° Projeto Individual - Sistema Resilia </h1>
 
+
+<h6 align="center">Projeto realizado em parceria com   
+<a href="https://prefeitura.rio/desenvolvimento-economico-inovacao-simplificacao/programadores-cariocas-comemoram-formatura-na-cidade-das-artes/"        target="_blank">Prefeitura RJ </a> + 
+<a href="https://www.resilia.com.br/" target="_blank">Resilia</a> + 
+<a href="https://www.rj.senac.br/" target="_blank">Senac.</a> </h6>
+<a href="" target="_blank"></a>
+
+
 <div id="inicio" align=center>
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;
   <a href="#extras">Extras</a>&nbsp;&nbsp;&nbsp;
@@ -42,23 +50,48 @@ Faltando explicação do projeto e Extras.
 
 
 <h2 id="projeto">Projeto 📈</h2>
+
 - Print da Modelagem feita no site Miro.com:<br><br>
 
 <div align="center">
   <img width="80%" src="https://user-images.githubusercontent.com/112782424/209417260-41260557-57c6-4f61-942c-d64bf6aee859.jpg" />
 </div>
-<br>
-<br>
+
+<h3>⇨ Explicação para cada atributo de cada entidade.</h3>
+
+**Acrescentei duas entidades a mais (Unidades e Professor), com essas entidades a mais podemos ter uma noção melhor, como?**<br>
+
+- Com a entidade Unidades, conseguimos saber a onde a entidade Cursos está dando aula, pois dentro da entidade Unidades temos alguns atributos importantes
+como "id", "nome", "bairro", "cnpj" etc. <br> 
+- Agora com a entidade Professor, conseguimos saber quem está dando aula nos Cursos e nesta entidade Professor especifica bem qual professor é, pois os atributos são "id", "nome", "cpf", etc.<br><br>
+
+**Por que algumas entidades estão relacionadas uma com as outras (FK, chave estrangeira)?**<br>
+- Para o nosso banco de dados é fundamental ter elas, pois o relacionamento conseguimos responder algumas perguntas básicas, por exemplo: <br>
+> Quantos cursos X tem na unidade Y? <br>
+Quais são os cursos que tem na unidade Y? <br>
+Quantos alunos matriculados tem na unidade Y? <br>
+Quantos alunos tem em sala de aula do curso X? <br>
+
+Essas são algumas perguntas que poderiamos responder fácil com o banco de dados, pois elas estão relacionadas. Caso não conseguíssemos resolver alguma outra pergunta futuramente, poderíamos acrescentar uma FK em uma entidade para solucionar o problema ou dependendo da situação, acrescentar um atributo nas entidades.
+
 <br>
 
-- Print da Modelagem com Excel: <br>
+<h3>Print da Modelagem com Excel:</h3>
 <div align="center">
   <img width="80%" src="https://user-images.githubusercontent.com/112782424/209417316-bd355299-2e73-4ae3-bcb3-93cee5f47079.png" />
 </div>
 
+<h3>Respostas das perguntas: </h3>
 
+> **⇨ Existem outras entidades além dessas três?**<br>
+Sim, existem mais duas entidades, "Unidades" e "Professor". <br>
+Precisei colocar essas entidades para ter um parâmetro, aonde a entidade "Curso" fica vinculado a entidade "Unidades" e a entidade "Professor" fica vinculado a "Turmas", portanto, todas conectadas para um gerenciamento melhor no banco de dados. <br> <br>
 
+> **⇨ Quais são os principais campos e tipos?**<br>
+... <br><br>
 
+> **⇨ Como essas entidades estão relacionadas?**<br>
+As entidades estão relacionadas com as chaves estrageiras (FK), como podemos ver na imagem feita no <a href="#projeto"> Miro </a>, em algumas entidades tem um atributo com "id_nomeDaEntidade", fazendo com que elas fiquem relacionadas. <br>
 
 <h2 id="ferramentas">Ferramentas utilizadas nesse projeto 📚</h2>
 
