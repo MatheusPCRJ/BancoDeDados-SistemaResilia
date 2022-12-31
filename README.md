@@ -1,4 +1,4 @@
-<h1 align="center">4° Projeto Individual - Sistema Resilia </h1>
+<h1 id="topo" align="center"> 4° Projeto Individual - Sistema Resilia </h1>
 
 
 <h6 align="center">Projeto realizado em parceria com   
@@ -28,7 +28,7 @@ acompanhamento e para isso precisa de ajuda para modelar um
 banco de dados que vai armazenar seus cursos, turmas e alunos.
 
 
-<h4> O que é para ser feito? </h4>
+<h4 id="aqui"> O que é para ser feito? </h4>
 <p>Para apoiar nesse sistema recebemos a tarefa de realizar essa modelagem
 e responder algumas perguntas com nosso modelo:<br>
 ⇨ Existem outras entidades além dessas três?<br>
@@ -44,8 +44,8 @@ Andamento: Não incluso.
 
 
 <h2 id="andamento">Andamento do projeto 📈</h2>
-- Incompleto.<br>
-Faltando explicação do projeto e Extras.
+- 90%.<br>
+Faltando os requisitos Extras.
 <br>
 
 
@@ -81,7 +81,7 @@ Essas são algumas perguntas que poderiamos responder fácil com o banco de dado
   <img width="80%" src="https://user-images.githubusercontent.com/112782424/209417316-bd355299-2e73-4ae3-bcb3-93cee5f47079.png" />
 </div>
 
-<h3>Respostas das perguntas: </h3>
+<h3>Respostas das perguntas mencionadas  <a href="#aqui">aqui</a> </h3>
 
 > **⇨ Existem outras entidades além dessas três?**<br>
 Sim, existem mais duas entidades, "Unidades" e "Professor". <br>
@@ -116,5 +116,5 @@ As entidades estão relacionadas com as chaves estrageiras (FK), como podemos ve
 <br>
 
 <div align="center">
-  &#11165;&nbsp;<a href="#inicio"><strong>Voltar ao topo</strong></a>&nbsp;&#11165;
+  &#11165;&nbsp;<a href="#topo"><strong>Voltar ao topo</strong></a>&nbsp;&#11165;
 </div>
