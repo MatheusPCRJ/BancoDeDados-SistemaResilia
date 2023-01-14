@@ -54,16 +54,21 @@ Faltando os requisitos Extras.
 - Print da Modelagem feita no site Miro.com:<br><br>
 
 <div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/112782424/212441676-a9c8d1dd-b30b-4848-899d-947de339a396.jpg" />
+  <img width="80%" src="https://user-images.githubusercontent.com/112782424/212444773-65a76fbb-e17d-4ebd-927a-77a30886cb0e.jpg" />
 </div>
+
+
 
 <h3>⇨ Explicação para cada atributo de cada entidade.</h3>
 
-**Acrescentei duas entidades a mais (Unidades e Professor), com essas entidades a mais podemos ter uma noção melhor, como?**<br>
+**Acrescentei três entidades a mais (Unidades,Professor e Endereços), com essas entidades a mais podemos ter uma noção melhor, como?**<br>
 
-- Com a entidade Unidades, conseguimos saber a onde a entidade Cursos está dando aula, pois dentro da entidade Unidades temos alguns atributos importantes
-como "id", "nome", "bairro", "cnpj" etc. <br> 
-- Agora com a entidade Professor, conseguimos saber quem está dando aula nos Cursos e nesta entidade Professor especifica bem qual professor é, pois os atributos são "id", "nome", "cpf", etc.<br><br>
+- Unidades: A entidade Unidades abrange todo o "universo" de todas as entidades, pois ela é mais importante, ela diz onde a instituição fica alocada mostrando com as colunas id (para pegar toda a linha), nome, bairro, estado cnpj e o tipo, a coluna tipo é para dizer se é a empresa Matriz ou Filial. <br><br>
+- Cursos: A entidade Cursos abrange todos os cursos de todas as Unidades, ela recebe duas chaves estrageiras para saber em qual nome da unidade e o Estado da Unidade que fica alocada. <br><br>
+- Alunos: A entidade Alunos é a base para o cadastro básico do aluno com as colunas nome, nascimento, cpf e recebendo duas chaves estrangeira "nome_cursos" para saber de qual curso o aluno pertence e "nome_unidades" para saber em qual unidade o aluno X pertence, essa chave estrangeira de Unidades é ideal para responder uma pergunta "Quantos alunos tem na Unidade X?". <br><br>
+- Professor: A entidade Professor é basicamente a mesma de Alunos, sendo que acrescentei a especialidade do professor, a formação dele se é Frontend, Backend ou Full-Stack. <br><br>
+- Endereços: Uma unidade muito importante é a endereço, pois ela pega todo o endereço de Alunos e Professores recebendo as colunas id, nome_professor, nome_aluno, rua, bairro, cidade, estado e cep. Repare que coloquei nome_professor e nome_aluno, quando utilizarmos o comando SELECT, utilizamos um ou outro, pois não seria possível utilizar as duas chaves e dando conflito, chamando a entidade nome_professor iria buscar pelo nome dele e aparecer todos os dados do mesmo. <br><br>
+- Turmas: E por último a entidade Turmas, essa entidade é responsável por gerenciar as colunas id, nome, turno, alunosQuant, nome-cursos, modalidade_cursos e diasDasAulas_cursos, com essa entidade é possível saber a quantidade de alunos na turma X, e recebe três chaves estrangeira para saber qual curso é a turma X, quais são os dias de aulas e a modalidade do curso se é Presencial ou Ensino a Distância (EAD). <br><br>
 
 **Por que algumas entidades estão relacionadas uma com as outras (FK, chave estrangeira)?**<br>
 - Para o nosso banco de dados é fundamental ter elas, pois o relacionamento conseguimos responder algumas perguntas básicas, por exemplo: <br>
@@ -78,8 +83,9 @@ Essas são algumas perguntas que poderiamos responder fácil com o banco de dado
 
 <h3>Print da Modelagem com Excel:</h3>
 <div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/112782424/212441115-ea5710f6-4077-430b-9621-2b01292d4cb5.png" />
+  <img width="80%" src="https://user-images.githubusercontent.com/112782424/212444780-bb7cd49e-c383-488e-ac12-f5abdeeb7bcb.png" />
 </div>
+
 
 <h3>Respostas das perguntas mencionadas  <a href="#aqui">aqui</a> </h3>
 
@@ -88,7 +94,8 @@ Sim, existem mais duas entidades, "Unidades" e "Professor". <br>
 Precisei colocar essas entidades para ter um parâmetro, aonde a entidade "Curso" fica vinculado a entidade "Unidades" e a entidade "Professor" fica vinculado a "Turmas", portanto, todas conectadas para um gerenciamento melhor no banco de dados. <br> <br>
 
 > **⇨ Quais são os principais campos e tipos?**<br>
-... <br><br>
+Os principais campos são o nome, cpf, nascimento e sem dúvida o ID referenciando toda a entrada na Entidade.<br>
+Os dois tipos mais importante são a Chave Primária e a Chave estrangeira.   <br><br>
 
 > **⇨ Como essas entidades estão relacionadas?**<br>
 As entidades estão relacionadas com as chaves estrageiras (FK), como podemos ver na imagem feita no <a href="#projeto"> Miro </a>, em algumas entidades tem um atributo com "id_nomeDaEntidade", fazendo com que elas fiquem relacionadas. <br>
