@@ -54,7 +54,7 @@ Faltando os requisitos Extras.
 - Print da Modelagem feita no site Miro.com:<br><br>
 
 <div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/112782424/209417260-41260557-57c6-4f61-942c-d64bf6aee859.jpg" />
+  <img width="80%" src="https://user-images.githubusercontent.com/112782424/212441676-a9c8d1dd-b30b-4848-899d-947de339a396.jpg" />
 </div>
 
 <h3>⇨ Explicação para cada atributo de cada entidade.</h3>
@@ -78,7 +78,7 @@ Essas são algumas perguntas que poderiamos responder fácil com o banco de dado
 
 <h3>Print da Modelagem com Excel:</h3>
 <div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/112782424/209417316-bd355299-2e73-4ae3-bcb3-93cee5f47079.png" />
+  <img width="80%" src="https://user-images.githubusercontent.com/112782424/212441115-ea5710f6-4077-430b-9621-2b01292d4cb5.png" />
 </div>
 
 <h3>Respostas das perguntas mencionadas  <a href="#aqui">aqui</a> </h3>
